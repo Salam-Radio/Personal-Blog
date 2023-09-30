@@ -1,0 +1,91 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.centered-image {
+    display: block; /* This ensures that the image is treated as a block element */
+    margin: 0 auto; /* This centers the image horizontally */
+}
+.small-image {
+  max-width: 10%; 
+  height: auto;
+}
+.medium-image {
+  max-width: 50%; 
+  height: auto;
+}
+/* Reset some default styles for a clean slate */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a black background and white text color */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif; /* bold web-safe font */
+}
+
+/* Style the header */
+header {
+    background-color: #000;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style headings with bold fonts */
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+/* Create a minimalistic container for content */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/*links with an underline on hover */
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: text-decoration 0.3s;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*simple button style */
+.button {
+    display: inline-block;
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Create a minimalistic footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}

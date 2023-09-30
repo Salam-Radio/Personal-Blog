@@ -1,0 +1,56 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Your personal blog description goes here.">
+  <title>Your Personal Blog</title>
+  <link rel="stylesheet" href="style.css"> <!-- Link to CSS file -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Link to favicon image -->
+</head>
+
+<body>
+  <header>
+    <div style="display: flex; justify-content: center;">
+      <img src="favicon.ico" alt="Salam" class="centered-image small-image">
+    </div>
+    <h1>Salamaleikum Radio blog</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h3>Contact Me</h3>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br>
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message"></textarea><br>
+    <fieldset>
+      <legend>I agree to:</legend>
+      <label>
+        <input type="checkbox" name="question2[]" value="option1"> Receive newsletters
+      </label>
+      <label>
+        <input type="checkbox" name="question2[]" value="option2"> Salamaleikum Radio &trade; will collect my data
+      </label>
+      <label>
+        <input type="checkbox" name="question2[]" value="option3"> Terms of Privacy of the website
+      </label>
+    </fieldset>
+    <br>
+    <label for="sender">You are:</label>
+    <select id="sender" name="selected sender">
+      <option value="student">Student</option>
+      <option value="investor">Investor</option>
+      <option value="advertiser">Advertiser</option>
+    </select>
+    <input type="submit" value="Submit">
+  </form>
+  <br> <br>
+  <a href="index.html">go back</a>
+</body>
